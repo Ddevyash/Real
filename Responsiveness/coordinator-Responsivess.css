@@ -1,0 +1,1361 @@
+
+
+
+/* iphone 14pro max */
+
+@media screen and (max-width:430px) {
+            /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 430px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 430px;
+    height: 390px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 17px;
+    width: 70px;
+    display: block;
+}
+
+.cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+}
+
+
+/* Container */ 
+
+.cor-content{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left:0px;
+    margin-left: 0px;
+}
+
+h1{
+    color: goldenrod;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 120px;
+}
+
+.cor-content p{
+    padding-left: 12px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 0px;
+    padding-right: 10px;
+}
+
+.cor-note{
+    border-radius: 40px;
+    z-index: 1;
+    margin-left: 0px;
+}
+
+.cor-content img{
+    width: 370px;
+    z-index: 1 !important;
+    padding-left: 34px;
+    margin-top: 30px;
+}
+
+
+
+
+    /* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 30px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 150px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+    
+}
+
+
+
+
+
+/* iphone XR */
+
+@media screen and (max-width:414px) {
+
+
+        /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 17px;
+    width: 70px;
+    display: block;
+}
+
+.cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+}
+
+
+/* Container */ 
+
+.cor-content{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left:0px;
+    margin-left: 0px;
+}
+
+h1{
+    color: goldenrod;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 120px;
+}
+
+.cor-content p{
+    padding-left: 12px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 0px;
+    padding-right: 10px;
+}
+
+.cor-note{
+    border-radius: 40px;
+    z-index: 1;
+    margin-left: 0px;
+}
+
+.cor-content img{
+    width: 350px;
+    z-index: 1 !important;
+    padding-left: 34px;
+    margin-top: 30px;
+}
+
+img{
+    z-index: 1;
+}
+
+
+
+    /* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 30px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+    
+}
+
+
+
+/* pixel 7 */
+
+@media screen and (max-width:412px) {
+            /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 17px;
+    width: 70px;
+    display: block;
+}
+
+.cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+}
+
+
+/* Container */ 
+
+.cor-content{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left:0px;
+    margin-left: 0px;
+}
+
+h1{
+    color: goldenrod;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 120px;
+}
+
+.cor-content p{
+    padding-left: 12px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 0px;
+    padding-right: 10px;
+}
+
+.cor-note{
+    border-radius: 40px;
+    z-index: 1;
+    margin-left: 0px;
+}
+
+.cor-content img{
+    width: 350px;
+    z-index: 1 !important;
+    padding-left: 34px;
+    margin-top: 30px;
+}
+
+img{
+    z-index: 1;
+}
+
+
+
+    /* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 30px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}   
+    
+}
+
+
+
+
+
+
+
+
+/* iphone 12pro */
+
+
+@media screen and (max-width:390px) {
+    
+            /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 32px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 17px;
+    width: 70px;
+    display: block;
+}
+
+.cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+}
+
+
+/* Container */ 
+
+.cor-content{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left:0px;
+    margin-left: 0px;
+}
+
+h1{
+    color: goldenrod;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 120px;
+}
+
+.cor-content p{
+    padding-left: 12px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 0px;
+    padding-right: 10px;
+}
+
+.cor-note{
+    border-radius: 40px;
+    z-index: 1;
+    margin-left: 0px;
+}
+
+.cor-content img{
+    width: 350px;
+    z-index: 1 !important;
+    padding-left: 23px;
+    margin-top: 30px;
+}
+
+img{
+    z-index: 1;
+}
+
+
+
+    /* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 30px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Samsung galaxy s8+ */
+
+@media screen and (max-width:360px) {
+            /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 90px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 60px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 60px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 22px;
+    width: 60px;
+    display: block;
+}
+
+.cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+}
+
+
+/* Container */ 
+
+.cor-content{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left:0px;
+    margin-left: 0px;
+}
+
+h1{
+    color: goldenrod;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 120px;
+}
+
+.cor-content p{
+    padding-left: 12px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 0px;
+    padding-right: 10px;
+}
+
+.cor-note{
+    border-radius: 40px;
+    z-index: 1;
+    margin-left: 0px;
+}
+
+.cor-content img{
+    width: 300px;
+    z-index: 1 !important;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+img{
+    z-index: 1;
+}
+
+
+
+    /* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 10px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 120px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/* galaxy z fold 5 */
+
+@media screen and (max-width:344px) {
+            /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 50px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 80px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 19px;
+    width: 50px;
+    display: block;
+}
+
+.cancel{
+    width: 40px;
+    display: none;
+    padding-top: 13px;
+}
+
+
+/* Container */ 
+
+.cor-content{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left:0px;
+    margin-left: 0px;
+}
+
+h1{
+    color: goldenrod;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 120px;
+}
+
+.cor-content p{
+    padding-left: 12px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 0px;
+    padding-right: 10px;
+}
+
+.cor-note{
+    border-radius: 40px;
+    z-index: 1;
+    margin-left: 0px;
+}
+
+.cor-content img{
+    width: 279px;
+    z-index: 1 !important;
+    padding-left: 34px;
+    margin-top: 30px;
+}
+
+img{
+    z-index: 1;
+}
+
+
+
+    /* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 5px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 100px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+    
+}

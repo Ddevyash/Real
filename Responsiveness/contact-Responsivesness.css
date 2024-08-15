@@ -1,0 +1,1893 @@
+
+/* iphone 14pro max */
+
+@media screen and (max-width:430px) {
+    
+       /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    }
+    
+    body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 430px;
+    }
+    
+    .logo{
+    padding-left: 10px;
+    padding-top: 10px;
+    }
+    
+    .logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+    }
+    
+    .menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 430px;
+    height: 390px;
+    line-height: 40px;
+    }
+    
+    hr{
+    display: block;
+    }
+    
+    .menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+    }
+    
+    .menu a:hover{
+    color: white !important;
+    }
+    
+    .background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+    }
+    
+    ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+    }
+    
+    .toggle{
+    position: absolute;
+    right: 10px;
+    display: block;
+    }
+    
+    .hamburger{
+        padding-top: 17px;
+        width: 70px;
+        display: block;
+    }
+    
+    .cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+    }
+
+
+
+
+
+    /* container */
+
+.card{
+    background-color: black;
+    height: 480px;
+    width: 320px;
+    z-index: 1;
+    margin-left: 55px;
+    border-radius: 50px;
+    border: 1px solid maroon;
+    margin-top: 130px;
+}
+
+.card h1{
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+input{
+    margin-left: 35px;
+    margin-bottom: 10px;
+    padding: 6px 0px;
+    width: 240px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+input:focus{
+    outline: none;
+    color: black;
+}
+
+input::placeholder{
+    color: maroon;
+    padding-left: 10px;
+}
+
+textarea{
+    margin-left: 35px;
+    width: 240px;
+    height: 200px;
+    border: 3px solid black;
+    margin-top: 8px;
+
+}
+
+textarea:focus{
+    color: black;
+    outline: none;
+}
+
+label{
+    color: whitesmoke;
+    padding-left: 42px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:gold;
+    color: black;
+    margin-left: 40px;
+    width: 240px;
+    padding: 10px 0px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+
+
+
+.socials{
+  
+    position: absolute;
+    top: 530px;
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 5px 0px;
+    opacity: 0.7;
+}
+
+.socials img{
+    width: 20px;
+}
+
+.socials p{
+    margin-bottom: 5px;
+    color: white;
+    line-height: 35px;
+
+}
+
+.socials a{
+    color: white;
+    padding-right: 20px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.socials a:hover{
+    color: goldenrod;
+    
+}
+
+.socials span{
+    font-size: 20px;
+}
+
+
+
+
+
+    /* Footer */
+
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 320px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 30px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iphone XR */
+
+
+@media screen and (max-width:414px) {
+
+     /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    }
+    
+    body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+    }
+    
+    .logo{
+    padding-left: 10px;
+    padding-top: 10px;
+    }
+    
+    .logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+    }
+    
+    .menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 40px;
+    }
+    
+    hr{
+    display: block;
+    }
+    
+    .menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+    }
+    
+    .menu a:hover{
+    color: white !important;
+    }
+    
+    .background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+    }
+    
+    ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+    }
+    
+    .toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+    }
+    
+    .hamburger{
+        padding-top: 17px;
+        width: 70px;
+        display: block;
+    }
+    
+    .cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+    }
+
+
+
+
+
+    /* container */
+
+.card{
+    background-color: black;
+    height: 480px;
+    width: 320px;
+    z-index: 1;
+    margin-left: 50px;
+    border-radius: 50px;
+    border: 1px solid maroon;
+    margin-top: 130px;
+}
+
+.card h1{
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+input{
+    margin-left: 35px;
+    margin-bottom: 10px;
+    padding: 6px 0px;
+    width: 240px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+input:focus{
+    outline: none;
+    color: black;
+}
+
+input::placeholder{
+    color: maroon;
+    padding-left: 10px;
+}
+
+textarea{
+    margin-left: 35px;
+    width: 240px;
+    height: 200px;
+    border: 3px solid black;
+    margin-top: 8px;
+
+}
+
+textarea:focus{
+    color: black;
+    outline: none;
+}
+
+label{
+    color: whitesmoke;
+    padding-left: 42px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:gold;
+    color: black;
+    margin-left: 40px;
+    width: 240px;
+    padding: 10px 0px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+
+
+
+.socials{
+  
+    position: absolute;
+    top: 530px;
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 5px 0px;
+    opacity: 0.7;
+}
+
+.socials img{
+    width: 20px;
+}
+
+.socials p{
+    margin-bottom: 5px;
+    color: white;
+    line-height: 35px;
+
+}
+
+.socials a{
+    color: white;
+    padding-right: 20px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.socials a:hover{
+    color: goldenrod;
+    
+}
+
+.socials span{
+    font-size: 20px;
+}
+
+
+
+
+
+    /* Footer */
+
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 320px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 30px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pixel 7 */
+
+@media screen and (max-width:412px) {
+
+       /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    }
+    
+    body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+    }
+    
+    .logo{
+    padding-left: 10px;
+    padding-top: 10px;
+    }
+    
+    .logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+    }
+    
+    .menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 40px;
+    }
+    
+    hr{
+    display: block;
+    }
+    
+    .menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+    }
+    
+    .menu a:hover{
+    color: white !important;
+    }
+    
+    .background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+    }
+    
+    ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+    }
+    
+    .toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+    }
+    
+    .hamburger{
+        padding-top: 17px;
+        width: 70px;
+        display: block;
+    }
+    
+    .cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+    }
+
+
+
+
+
+    /* container */
+
+.card{
+    background-color: black;
+    height: 480px;
+    width: 320px;
+    z-index: 1;
+    margin-left: 50px;
+    border-radius: 50px;
+    border: 1px solid maroon;
+    margin-top: 130px;
+}
+
+.card h1{
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+input{
+    margin-left: 35px;
+    margin-bottom: 10px;
+    padding: 6px 0px;
+    width: 240px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+input:focus{
+    outline: none;
+    color: black;
+}
+
+input::placeholder{
+    color: maroon;
+    padding-left: 10px;
+}
+
+textarea{
+    margin-left: 35px;
+    width: 240px;
+    height: 200px;
+    border: 3px solid black;
+    margin-top: 8px;
+
+}
+
+textarea:focus{
+    color: black;
+    outline: none;
+}
+
+label{
+    color: whitesmoke;
+    padding-left: 42px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:gold;
+    color: black;
+    margin-left: 40px;
+    width: 240px;
+    padding: 10px 0px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+
+
+
+.socials{
+  
+    position: absolute;
+    top: 530px;
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 5px 0px;
+    opacity: 0.7;
+}
+
+.socials img{
+    width: 20px;
+}
+
+.socials p{
+    margin-bottom: 5px;
+    color: white;
+    line-height: 35px;
+
+}
+
+.socials a{
+    color: white;
+    padding-right: 20px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.socials a:hover{
+    color: goldenrod;
+    
+}
+
+.socials span{
+    font-size: 20px;
+}
+
+
+
+
+
+    /* Footer */
+
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 320px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 30px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Samsung galaxy s8 */
+
+@media screen and (max-width:412px) {
+
+       /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    }
+    
+    body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .nav-bar{
+    margin-top: 0px;
+    height: 90px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+    }
+    
+    .logo{
+    padding-left: 10px;
+    padding-top: 10px;
+    }
+    
+    .logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+    }
+    
+    .menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 40px;
+    }
+    
+    hr{
+    display: block;
+    }
+    
+    .menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+    }
+    
+    .menu a:hover{
+    color: white !important;
+    }
+    
+    .background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+    }
+    
+    ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+    }
+    
+    .toggle{
+    position: absolute;
+    right: 40px;
+    display: block;
+    }
+    
+    .hamburger{
+        padding-top: 20px;
+        width: 60px;
+        display: block;
+    }
+    
+    .cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+    }
+
+
+
+
+
+    /* container */
+
+.card{
+    background-color: black;
+    height: 480px;
+    width: 320px;
+    z-index: 1;
+    margin-left: 50px;
+    border-radius: 50px;
+    border: 1px solid maroon;
+    margin-top: 130px;
+}
+
+.card h1{
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+input{
+    margin-left: 35px;
+    margin-bottom: 10px;
+    padding: 6px 0px;
+    width: 240px;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+input:focus{
+    outline: none;
+    color: black;
+}
+
+input::placeholder{
+    color: maroon;
+    padding-left: 10px;
+}
+
+textarea{
+    margin-left: 35px;
+    width: 240px;
+    height: 200px;
+    border: 3px solid black;
+    margin-top: 8px;
+
+}
+
+textarea:focus{
+    color: black;
+    outline: none;
+}
+
+label{
+    color: whitesmoke;
+    padding-left: 42px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:gold;
+    color: black;
+    margin-left: 40px;
+    width: 240px;
+    padding: 10px 0px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+
+
+
+.socials{
+  
+    position: absolute;
+    top: 530px;
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 5px 0px;
+    opacity: 0.7;
+}
+
+.socials img{
+    width: 20px;
+}
+
+.socials p{
+    margin-bottom: 5px;
+    color: white;
+    line-height: 35px;
+
+}
+
+.socials a{
+    color: white;
+    padding-right: 20px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.socials a:hover{
+    color: goldenrod;
+    
+}
+
+.socials span{
+    font-size: 20px;
+}
+
+
+
+
+
+    /* Footer */
+
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 320px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 10px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 120px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+    
+}
+
+
+
+
+
+
+
+
+/* iphone 12pro */
+
+@media screen and (max-width:390px) {
+    
+    /* Navigation Bar */
+
+
+*{
+margin: 0;
+padding: 0;
+overflow-x: hidden !important;
+}
+
+body{
+margin: 0;
+padding: 0;
+overflow-x: hidden !important;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+margin-top: 0px;
+height: 100px;
+display: flex;
+background-color: white;
+position: fixed;
+z-index: 2;
+width: 414px;
+}
+
+.logo{
+padding-left: 10px;
+padding-top: 10px;
+}
+
+.logo img{
+width: 70px;
+border-radius: 60px;
+margin-right: 5px;
+}
+
+.menu ul{
+display: flex;
+align-items: center;  
+justify-content: center;
+float:right;
+padding-bottom: 20px;
+margin-left: 80px;
+font-size: 18px;
+padding-top: 20px;
+display: none;
+position: fixed;
+left: -80px;
+top: 80px;
+background-color: white;
+width: 414px;
+height: 390px;
+line-height: 40px;
+}
+
+hr{
+display: block;
+}
+
+.menu a{
+color: black;
+text-decoration: none;
+margin-left: 15px;
+
+}
+
+.menu a:hover{
+color: white !important;
+}
+
+.background img{
+position: absolute;
+width: 850px;
+border-radius: 480px;
+top: 100px;
+left: 210px;
+opacity: 0.2;
+z-index: -1;
+display: none;
+}
+
+ul .home{
+color: goldenrod !important;
+font-size: 22px;
+}
+
+.toggle{
+position: absolute;
+right: 30px;
+display: block;
+}
+
+.hamburger{
+   padding-top: 17px;
+   width: 70px;
+   display: block;
+}
+
+.cancel{
+width: 50px;
+display: none;
+padding-top: 20px;
+}
+
+
+
+
+
+/* container */
+
+.card{
+background-color: black;
+height: 480px;
+width: 320px;
+z-index: 1;
+margin-left: 35px;
+border-radius: 50px;
+border: 1px solid maroon;
+margin-top: 130px;
+}
+
+.card h1{
+color: white;
+padding-left: 50px;
+padding-top: 10px;
+font-size: 25px;
+}
+
+input{
+margin-left: 35px;
+margin-bottom: 10px;
+padding: 6px 0px;
+width: 240px;
+margin-top: 10px;
+border: 3px solid black;
+}
+
+input:focus{
+outline: none;
+color: black;
+}
+
+input::placeholder{
+color: maroon;
+padding-left: 10px;
+}
+
+textarea{
+margin-left: 35px;
+width: 240px;
+height: 200px;
+border: 3px solid black;
+margin-top: 8px;
+
+}
+
+textarea:focus{
+color: black;
+outline: none;
+}
+
+label{
+color: whitesmoke;
+padding-left: 42px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+button{
+background-color:gold;
+color: black;
+margin-left: 40px;
+width: 240px;
+padding: 10px 0px;
+margin-top: 15px;
+cursor: pointer;
+border: none;
+}
+
+button:hover{
+opacity: 0.7;
+}
+
+
+
+
+.socials{
+
+position: absolute;
+top: 530px;
+margin-top: 130px;
+margin-left: 30px;
+margin-right: 40px;
+padding: 5px 0px;
+opacity: 0.7;
+}
+
+.socials img{
+width: 20px;
+}
+
+.socials p{
+margin-bottom: 5px;
+color: white;
+line-height: 35px;
+
+}
+
+.socials a{
+color: white;
+padding-right: 20px;
+padding-left: 5px;
+text-decoration: none;
+font-size: 13px;
+}
+
+.socials a:hover{
+color: goldenrod;
+
+}
+
+.socials span{
+font-size: 20px;
+}
+
+
+
+
+
+/* Footer */
+
+
+.footer{
+background-color:white;
+height: 150px;
+overflow: hidden;
+padding-bottom: 0px;
+margin-top: 320px;
+border-radius: 0px;
+color: black;
+position: relative;
+}
+
+.footer a{
+color: black;
+text-decoration: none;
+margin-bottom: 0px;
+margin-bottom: 0px;
+}
+
+.footer a:hover{
+color: maroon;
+padding-right: 20px;
+}
+
+.footer .uno{
+display: inline-block;
+margin-left: 0px;
+margin-top: 0px;
+margin-bottom: -20px;
+padding-left: 30px;
+padding-top: 20px;
+}
+
+.footer .duos{
+padding-left: 30px;
+display: block;
+margin-left: 0px;
+margin-top: 0px;
+padding-right: 30px;
+}
+
+.footer .trio{
+display: block;
+margin-left: 0px;
+margin-top: 0px; 
+display: block;
+position: absolute;
+right: 20px;
+top: 20px;
+padding-bottom: 40px;
+}
+
+.copyright{
+padding-left: 140px;
+padding-bottom: -200px;
+color: goldenrod !important;
+margin-top: -30px;
+}
+
+.footer hr{
+display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* galaxy z fold 5 */
+
+@media screen and (max-width:344px) {
+    
+    /* Navigation Bar */
+
+
+*{
+margin: 0;
+padding: 0;
+overflow-x: hidden !important;
+}
+
+body{
+margin: 0;
+padding: 0;
+overflow-x: hidden !important;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+margin-top: 0px;
+height: 80px;
+display: flex;
+background-color: white;
+position: fixed;
+z-index: 2;
+width: 414px;
+}
+
+.logo{
+padding-left: 10px;
+padding-top: 10px;
+}
+
+.logo img{
+width: 50px;
+border-radius: 60px;
+margin-right: 5px;
+}
+
+.menu ul{
+display: flex;
+align-items: center;  
+justify-content: center;
+float:right;
+padding-bottom: 20px;
+margin-left: 80px;
+font-size: 18px;
+padding-top: 20px;
+display: none;
+position: fixed;
+left: -80px;
+top: 80px;
+background-color: white;
+width: 414px;
+height: 390px;
+line-height: 40px;
+}
+
+hr{
+display: block;
+}
+
+.menu a{
+color: black;
+text-decoration: none;
+margin-left: 15px;
+
+}
+
+.menu a:hover{
+color: white !important;
+}
+
+.background img{
+position: absolute;
+width: 850px;
+border-radius: 480px;
+top: 100px;
+left: 210px;
+opacity: 0.2;
+z-index: -1;
+display: none;
+}
+
+ul .home{
+color: goldenrod !important;
+font-size: 22px;
+}
+
+.toggle{
+position: absolute;
+right: 80px;
+display: block;
+}
+
+.hamburger{
+   padding-top: 17px;
+   width: 50px;
+   display: block;
+}
+
+.cancel{
+width: 40px;
+display: none;
+padding-top: 15px;
+}
+
+
+
+
+
+/* container */
+
+.card{
+background-color: black;
+height: 480px;
+width: 320px;
+z-index: 1;
+margin-left: 13px;
+border-radius: 50px;
+border: 1px solid maroon;
+margin-top: 130px;
+}
+
+.card h1{
+color: white;
+padding-left: 50px;
+padding-top: 10px;
+font-size: 25px;
+}
+
+input{
+margin-left: 35px;
+margin-bottom: 10px;
+padding: 6px 0px;
+width: 240px;
+margin-top: 10px;
+border: 3px solid black;
+}
+
+input:focus{
+outline: none;
+color: black;
+}
+
+input::placeholder{
+color: maroon;
+padding-left: 10px;
+}
+
+textarea{
+margin-left: 35px;
+width: 240px;
+height: 200px;
+border: 3px solid black;
+margin-top: 8px;
+
+}
+
+textarea:focus{
+color: black;
+outline: none;
+}
+
+label{
+color: whitesmoke;
+padding-left: 42px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+button{
+background-color:gold;
+color: black;
+margin-left: 40px;
+width: 240px;
+padding: 10px 0px;
+margin-top: 15px;
+cursor: pointer;
+border: none;
+}
+
+button:hover{
+opacity: 0.7;
+}
+
+
+
+
+.socials{
+
+position: absolute;
+top: 530px;
+margin-top: 130px;
+margin-left: 30px;
+margin-right: 40px;
+padding: 5px 0px;
+opacity: 0.7;
+}
+
+.socials img{
+width: 20px;
+}
+
+.socials p{
+margin-bottom: 5px;
+color: white;
+line-height: 35px;
+
+}
+
+.socials a{
+color: white;
+padding-right: 20px;
+padding-left: 5px;
+text-decoration: none;
+font-size: 13px;
+}
+
+.socials a:hover{
+color: goldenrod;
+
+}
+
+.socials span{
+font-size: 20px;
+}
+
+
+
+
+
+/* Footer */
+
+
+.footer{
+background-color:white;
+height: 150px;
+overflow: hidden;
+padding-bottom: 0px;
+margin-top: 320px;
+border-radius: 0px;
+color: black;
+position: relative;
+}
+
+.footer a{
+color: black;
+text-decoration: none;
+margin-bottom: 0px;
+margin-bottom: 0px;
+}
+
+.footer a:hover{
+color: maroon;
+padding-right: 20px;
+}
+
+.footer .uno{
+display: inline-block;
+margin-left: 0px;
+margin-top: 0px;
+margin-bottom: -20px;
+padding-left: 10px;
+padding-top: 20px;
+}
+
+.footer .duos{
+padding-left: 10px;
+display: block;
+margin-left: 0px;
+margin-top: 0px;
+padding-right: 30px;
+}
+
+.footer .trio{
+display: block;
+margin-left: 0px;
+margin-top: 0px; 
+display: block;
+position: absolute;
+right: 5px;
+top: 20px;
+padding-bottom: 40px;
+}
+
+.copyright{
+padding-left: 110px;
+padding-bottom: -200px;
+color: goldenrod !important;
+margin-top: -30px;
+}
+
+.footer hr{
+display: none;
+}
+}

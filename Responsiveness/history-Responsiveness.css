@@ -1,0 +1,1754 @@
+
+
+
+
+/* iphone 14 */
+
+@media screen and (max-width:430px) {
+
+     /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 430px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 430px;
+    height: 390px;
+    line-height: 20px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 25px;
+    width: 70px;
+    display: block;
+}
+
+.cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+}
+
+
+
+
+/* Container */
+
+.heading h2{
+    color: wheat;
+    margin-left: 25px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 120px;
+   
+}
+
+.heading span{
+    font-size: 40px;
+    color:olivedrab;
+
+}
+
+.history-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+}
+
+.history{
+    padding-left: 0px;
+    margin-left: 10px;
+    z-index: 1;
+    color: white;
+    line-height: 25px !important;
+}
+
+.history img{
+    width: 370px;
+    height: 350px;
+    z-index: 1;
+    padding-left: 22px;
+}
+
+.history p{
+    color: white;
+    padding-right: 30px;
+    padding-top: 20px;
+    line-height: 35px;
+    margin-right: 10px;
+
+}
+
+
+ul{
+    padding-top: 20px;
+}
+
+ul li{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.search{
+    background-color: rgb(124, 19, 19);
+    border-left-color:red ;
+    margin-top: 0px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: none;
+}
+
+.search h2{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.search input{
+    margin-left: 40px;
+    padding: 7px 90px 7px 0px;
+    outline: none;
+}
+
+.search button{
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 4px 4px 4px 4px;
+}
+
+.socials{
+    color: white;
+    padding-left: 40px;
+    margin-top: 500px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.socials img{
+    width: 25px;
+    margin-right: 20px;
+    padding-top: 0px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 10px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iphone XR */
+
+@media screen and (max-width:414px) {
+
+    /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 20px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 17px;
+    width: 70px;
+    display: block;
+}
+
+.cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+}
+
+
+
+
+/* Container */
+
+.heading h2{
+    color: wheat;
+    margin-left: 25px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 120px;
+   
+}
+
+.heading span{
+    font-size: 40px;
+    color:olivedrab;
+
+}
+
+.history-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+}
+
+.history{
+    padding-left: 0px;
+    margin-left: 10px;
+    z-index: 1;
+    color: white;
+    line-height: 25px !important;
+}
+
+.history img{
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+    padding-left: 22px;
+}
+
+.history p{
+    color: white;
+    padding-right: 30px;
+    padding-top: 20px;
+    line-height: 35px;
+    margin-right: 10px;
+
+}
+
+
+ul{
+    padding-top: 20px;
+}
+
+ul li{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.search{
+    background-color: rgb(124, 19, 19);
+    border-left-color:red ;
+    margin-top: 0px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: none;
+}
+
+.search h2{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.search input{
+    margin-left: 40px;
+    padding: 7px 90px 7px 0px;
+    outline: none;
+}
+
+.search button{
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 4px 4px 4px 4px;
+}
+
+.socials{
+    color: white;
+    padding-left: 40px;
+    margin-top: 500px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.socials img{
+    width: 25px;
+    margin-right: 20px;
+    padding-top: 0px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 50px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pixel 7 */
+
+
+@media screen and (max-width:412px) {
+    
+     /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 20px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 17px;
+    width: 70px;
+    display: block;
+}
+
+.cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+}
+
+
+
+
+/* Container */
+
+.heading h2{
+    color: wheat;
+    margin-left: 25px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 120px;
+   
+}
+
+.heading span{
+    font-size: 40px;
+    color:olivedrab;
+
+}
+
+.history-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+}
+
+.history{
+    padding-left: 0px;
+    margin-left: 10px;
+    z-index: 1;
+    color: white;
+    line-height: 25px !important;
+}
+
+.history img{
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+    padding-left: 22px;
+}
+
+.history p{
+    color: white;
+    padding-right: 30px;
+    padding-top: 20px;
+    line-height: 35px;
+    margin-right: 10px;
+
+}
+
+
+ul{
+    padding-top: 20px;
+}
+
+ul li{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.search{
+    background-color: rgb(124, 19, 19);
+    border-left-color:red ;
+    margin-top: 0px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: none;
+}
+
+.search h2{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.search input{
+    margin-left: 40px;
+    padding: 7px 90px 7px 0px;
+    outline: none;
+}
+
+.search button{
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 4px 4px 4px 4px;
+}
+
+.socials{
+    color: white;
+    padding-left: 40px;
+    margin-top: 500px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.socials img{
+    width: 25px;
+    margin-right: 20px;
+    padding-top: 0px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 15px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* iphone 12 pro */
+
+@media screen and (max-width:390px) {
+
+        /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 20px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 30px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 17px;
+    width: 70px;
+    display: block;
+}
+
+.cancel{
+    width: 50px;
+    display: none;
+    padding-top: 20px;
+}
+
+
+
+
+/* Container */
+
+.heading h2{
+    color: wheat;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 120px;
+   
+}
+
+.heading span{
+    font-size: 40px;
+    color:olivedrab;
+
+}
+
+.history-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+}
+
+.history{
+    padding-left: 0px;
+    margin-left: 10px;
+    z-index: 1;
+    color: white;
+    line-height: 25px !important;
+}
+
+.history img{
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+    padding-left: 12px;
+}
+
+.history p{
+    color: white;
+    padding-right: 30px;
+    padding-top: 20px;
+    line-height: 35px;
+    margin-right: 10px;
+
+}
+
+
+ul{
+    padding-top: 20px;
+}
+
+ul li{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.search{
+    background-color: rgb(124, 19, 19);
+    border-left-color:red ;
+    margin-top: 0px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: none;
+}
+
+.search h2{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.search input{
+    margin-left: 40px;
+    padding: 7px 90px 7px 0px;
+    outline: none;
+}
+
+.search button{
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 4px 4px 4px 4px;
+}
+
+.socials{
+    color: white;
+    padding-left: 40px;
+    margin-top: 500px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.socials img{
+    width: 25px;
+    margin-right: 20px;
+    padding-top: 0px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 20px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 140px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Samsung galaxy s8+ */
+
+@media screen and (max-width:360px) {
+
+     /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 50px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 20px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 70px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 17px;
+    width: 55px;
+    display: block;
+}
+
+.cancel{
+    width: 35px;
+    display: none;
+    padding-top: 10px;
+}
+
+
+
+
+/* Container */
+
+.heading h2{
+    color: wheat;
+    margin-left: 25px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin-top: 120px;
+   
+}
+
+.heading span{
+    font-size: 40px;
+    color:olivedrab;
+
+}
+
+.history-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+}
+
+.history{
+    padding-left: 0px;
+    margin-left: 10px;
+    z-index: 1;
+    color: white;
+    line-height: 25px !important;
+}
+
+.history img{
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    padding-left: 22px;
+}
+
+.history p{
+    color: white;
+    padding-right: 30px;
+    padding-top: 20px;
+    line-height: 35px;
+    margin-right: 10px;
+
+}
+
+
+ul{
+    padding-top: 20px;
+}
+
+ul li{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.search{
+    background-color: rgb(124, 19, 19);
+    border-left-color:red ;
+    margin-top: 0px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: none;
+}
+
+.search h2{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.search input{
+    margin-left: 40px;
+    padding: 7px 90px 7px 0px;
+    outline: none;
+}
+
+.search button{
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 4px 4px 4px 4px;
+}
+
+.socials{
+    color: white;
+    padding-left: 40px;
+    margin-top: 500px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.socials img{
+    width: 25px;
+    margin-right: 20px;
+    padding-top: 0px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 10px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 120px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Galaxy z fold 5 */
+
+@media screen and (max-width:344px) {
+     /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 70px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 414px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 45px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 80px;
+    background-color: white;
+    width: 414px;
+    height: 390px;
+    line-height: 20px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 80px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 17px;
+    width: 50px;
+    display: block;
+}
+
+.cancel{
+    width: 40px;
+    display: none;
+    padding-top: 10px;
+}
+
+
+
+
+/* Container */
+
+.heading h2{
+    color: wheat;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 120px;
+   
+}
+
+.heading span{
+    font-size: 40px;
+    color:olivedrab;
+
+}
+
+.history-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+}
+
+.history{
+    padding-left: 0px;
+    margin-left: 10px;
+    z-index: 1;
+    color: white;
+    line-height: 25px !important;
+}
+
+.history img{
+    width: 320px;
+    height: 320px;
+    z-index: 1;
+    padding-left: 2px;
+}
+
+.history p{
+    color: white;
+    padding-right: 30px;
+    padding-top: 20px;
+    line-height: 35px;
+    margin-right: 10px;
+
+}
+
+
+ul{
+    padding-top: 20px;
+}
+
+ul li{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.search{
+    background-color: rgb(124, 19, 19);
+    border-left-color:red ;
+    margin-top: 0px;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: none;
+}
+
+.search h2{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.search input{
+    margin-left: 40px;
+    padding: 7px 90px 7px 0px;
+    outline: none;
+}
+
+.search button{
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 4px 4px 4px 4px;
+}
+
+.socials{
+    color: white;
+    padding-left: 40px;
+    margin-top: 500px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.socials img{
+    width: 25px;
+    margin-right: 20px;
+    padding-top: 0px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:white;
+    height: 150px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.footer .duos{
+    padding-left: 10px;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 30px;
+}
+
+.footer .trio{
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px; 
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    padding-bottom: 40px;
+}
+
+.copyright{
+    padding-left: 110px;
+    padding-bottom: -200px;
+    color: goldenrod !important;
+    margin-top: -30px;
+}
+
+.footer hr{
+    display: none;
+}
+
+
+    
+}
