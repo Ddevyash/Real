@@ -176,6 +176,10 @@ pre{
     line-height: 95px;
 }
 
+.realist{
+    font-size: 17px !important;
+}
+
 .note h5{
     line-height: 40px;
 }
@@ -183,6 +187,7 @@ pre{
 .note span{
     color: goldenrod ;
     font-weight: bold;
+    font-size: 19px;
 }
 
 .note img{
@@ -190,7 +195,7 @@ pre{
     padding-left: 70px;
     position: absolute;
     left: 130px;
-    top: 480px;
+    top: 510px;
 
 }
 
@@ -358,7 +363,7 @@ pre{
 }
 
 .testimony div{
-    height: 605px;
+    height: 655px;
     border: 1px solid rgb(161, 81, 81);
     border-radius: 50px;
     background-color: black;
