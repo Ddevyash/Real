@@ -15,8 +15,15 @@ body{
     overflow-x: hidden;
     overflow-x: hidden;
     background-image: url(./Image/red\ and\ black\ wallpaper.jpeg);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'roboto', 'inter';
 }
+
+
+.roboto-regular {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 .nav-bar{
     margin-top: 10px;
@@ -174,7 +181,8 @@ pre{
 }
 
 .note span{
-    color: maroon;
+    color: goldenrod ;
+    font-weight: bold;
 }
 
 .note img{
@@ -221,7 +229,6 @@ pre{
     z-index: -2;
     padding-left: 10px;
     padding-right: 10px;
-    /* background-color: transparent; */
 }
 
 
@@ -310,7 +317,7 @@ pre{
     background-color: black;
     margin-left: 50px;
     margin-right: 50px;
-    height: 500px;
+    height: 780px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 0px;
@@ -329,16 +336,19 @@ pre{
 .testimony{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    column-gap: 0px;
     
 }
 
 .testimony img{
     width: 200px;
-    /* height: 220px; */
     padding-left: 60px;
     padding-bottom: 10px;
     padding-top: 25px;
+}
+
+.testimony h4{
+
 }
 
 .testimony p{
@@ -348,12 +358,18 @@ pre{
 }
 
 .testimony div{
-    height: 355px;
+    height: 605px;
     border: 1px solid rgb(161, 81, 81);
     border-radius: 50px;
     background-color: black;
     width: 330px;
+    padding-left: 10px;
+    padding-right: 10px;
 
+}
+
+.post-testimony{
+    margin-bottom: 60px;
 }
 
 
@@ -363,14 +379,12 @@ pre{
 /* last content */
 
 .about{
-    /* background-color: black; */
     padding-left: 20px;
     padding-right: 20px;
-    height: 400px;
+    height: 420px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: -40px;
-    /* margin-bottom: -400px; */
 }
 
 .mission{
@@ -408,10 +422,7 @@ pre{
 }
 
 .socials{
-    /* padding-top: 20px; */
     padding-left: 60px;
-    /* padding-top: 30px; */
-    /* background-color:magenta; */
     padding-bottom: 20px;
     display: none;
 }
