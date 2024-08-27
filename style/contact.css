@@ -79,6 +79,10 @@ ul .home{
     display: none;
 }
 
+.nav-bar hr{
+    display: none;
+}
+
 
 
 /* container */
