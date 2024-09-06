@@ -1,7 +1,5 @@
 
-/* iphone 14 */
-
-@media screen and (max-width:430px) {
+@media screen and (max-width:1024px) {
     /* Navigation Bar */
 
 
@@ -20,12 +18,857 @@ body{
 
 .nav-bar{
     margin-top: 0px;
-    height: 100px;
+    height: 120px;
     display: flex;
     background-color: white;
     position: fixed;
     z-index: 2;
-    width: 430px;
+    width: 1024px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 19px;
+}
+
+.logo img{
+    width: 80px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 30px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 95px;
+    background-color: white;
+    width:1024px;
+    height: 890px;
+    line-height: 55px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 30px;
+}
+
+.toggle{
+    position: absolute;
+    right: 50px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 33px;
+    width: 75px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 30px;
+}
+
+/* Container */
+
+.heading{
+    margin-top: 130px;
+    margin-bottom: -30px;
+}
+
+
+.heading h1{
+    color: white;
+    padding-left: 60px;
+    margin-right: 30px;
+    margin-left: -30px;
+}
+
+.heading p{
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: maroon;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    z-index: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.heading hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.statute-content{
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding-bottom: 100px;
+}
+
+.second-card{
+    background-color: rgb(121, 32, 32);
+    z-index: 1;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 480px;
+    margin-left: 30px;
+    display: none;
+
+}
+
+.second-card h1{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(147, 209, 55);
+}
+
+input{
+    margin-left: 40px;
+    width: 280px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+label{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: wheat;
+    
+}
+
+textarea{
+    margin-left: 40px;
+    width: 290px;
+    height: 220px;
+    margin-top: 7px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+
+button{
+    margin-left: 40px;
+    width: 290px;
+    margin-top: 5px;
+    padding: 12px 0px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.first-card{
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    column-gap: 10px;
+    row-gap: 15px;
+    z-index: 1;
+    
+}
+
+.first{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+h2{
+    padding-left: 10px;
+    color: maroon;
+}
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.first-card a{
+    color: rgb(22, 84, 22);
+    padding-left: 29px;
+    font-size: 20px;
+}
+
+.first-card a:hover{
+    color: blue;
+}
+
+.first-card div:hover{
+    background-color: rgb(243, 204, 105);
+    transition: 1s;
+
+}
+
+
+.second{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.third{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.fourth{
+    background-color: wheat;
+    height: 250px;
+    /* margin-top: 60px; */
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.fifth{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.sixth{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.seventh{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+
+}
+
+.eight{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.ninth{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.ten{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 440px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:912px) {
+     /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 105px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 1024px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.logo img{
+    width: 80px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 25px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 95px;
+    background-color: white;
+    width:1024px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 30px;
+}
+
+.toggle{
+    position: absolute;
+    right: 150px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 33px;
+    width: 75px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 30px;
+}
+
+/* Container */
+
+.heading{
+    margin-top: 130px;
+    margin-bottom: -30px;
+}
+
+
+.heading h1{
+    color: white;
+    padding-left: 60px;
+    margin-right: 30px;
+    margin-left: -30px;
+}
+
+.heading p{
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: maroon;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    z-index: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.heading hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.statute-content{
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding-bottom: 100px;
+}
+
+.second-card{
+    background-color: rgb(121, 32, 32);
+    z-index: 1;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 480px;
+    margin-left: 30px;
+    display: none;
+
+}
+
+.second-card h1{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(147, 209, 55);
+}
+
+input{
+    margin-left: 40px;
+    width: 280px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+label{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: wheat;
+    
+}
+
+textarea{
+    margin-left: 40px;
+    width: 290px;
+    height: 220px;
+    margin-top: 7px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+
+button{
+    margin-left: 40px;
+    width: 290px;
+    margin-top: 5px;
+    padding: 12px 0px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.first-card{
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    column-gap: 10px;
+    row-gap: 15px;
+    z-index: 1;
+    
+}
+
+.first{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+h2{
+    padding-left: 10px;
+    color: maroon;
+}
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.first-card a{
+    color: rgb(22, 84, 22);
+    padding-left: 29px;
+    font-size: 20px;
+}
+
+.first-card a:hover{
+    color: blue;
+}
+
+.first-card div:hover{
+    background-color: rgb(243, 204, 105);
+    transition: 1s;
+
+}
+
+
+.second{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.third{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.fourth{
+    background-color: wheat;
+    height: 250px;
+    /* margin-top: 60px; */
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.fifth{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.sixth{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.seventh{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+
+}
+
+.eight{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.ninth{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.ten{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+ /* Footer */
+
+ .footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 380px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:852px) {
+
+    /* Navigation Bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 90px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 852px;
 }
 
 .logo{
@@ -53,8 +896,616 @@ body{
     left: -80px;
     top: 80px;
     background-color: white;
-    width: 430px;
-    height: 390px;
+    width:852px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 40px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 25px;
+    width: 60px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 15px;
+}
+
+ /* Footer */
+
+ .footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 360px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:820px) {
+    /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 820px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width:820px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 40px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 25px;
+    width: 60px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 15px;
+}
+
+/* Container */
+
+.heading{
+    margin-top: 130px;
+    margin-bottom: -30px;
+}
+
+
+.heading h1{
+    color: white;
+    padding-left: 60px;
+    margin-right: 30px;
+    margin-left: -30px;
+}
+
+.heading p{
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: maroon;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    z-index: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.heading hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.statute-content{
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding-bottom: 100px;
+}
+
+.second-card{
+    background-color: rgb(121, 32, 32);
+    z-index: 1;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 480px;
+    margin-left: 30px;
+    display: none;
+
+}
+
+.second-card h1{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(147, 209, 55);
+}
+
+input{
+    margin-left: 40px;
+    width: 280px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+label{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: wheat;
+    
+}
+
+textarea{
+    margin-left: 40px;
+    width: 290px;
+    height: 220px;
+    margin-top: 7px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+
+button{
+    margin-left: 40px;
+    width: 290px;
+    margin-top: 5px;
+    padding: 12px 0px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.first-card{
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    column-gap: 10px;
+    row-gap: 15px;
+    z-index: 1;
+    
+}
+
+.first{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+h2{
+    padding-left: 10px;
+    color: maroon;
+}
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.first-card a{
+    color: rgb(22, 84, 22);
+    padding-left: 29px;
+    font-size: 20px;
+}
+
+.first-card a:hover{
+    color: blue;
+}
+
+.first-card div:hover{
+    background-color: rgb(243, 204, 105);
+    transition: 1s;
+
+}
+
+
+.second{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.third{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.fourth{
+    background-color: wheat;
+    height: 250px;
+    /* margin-top: 60px; */
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.fifth{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.sixth{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.seventh{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+
+}
+
+.eight{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.ninth{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.ten{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+ /* Footer */
+
+ .footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 320px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+      /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 90px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 770px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 60px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 770px;
+    height: 890px;
     line-height: 40px;
 }
 
@@ -96,15 +1547,868 @@ ul .home{
 }
 
 .hamburger{
-    padding-top: 18px;
-    width: 70px;
+    padding-top: 25px;
+    width: 60px;
     display: block;
 }
 
 .cancel{
-    width: 50px;
+    width: 45px;
     display: none;
+    padding-top: 15px;
+}
+
+/* Container */
+
+.heading{
+    margin-top: 130px;
+    margin-bottom: -30px;
+}
+
+
+.heading h1{
+    color: white;
+    padding-left: 60px;
+    margin-right: 30px;
+    margin-left: -30px;
+}
+
+.heading p{
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: maroon;
     padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    z-index: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.heading hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.statute-content{
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding-bottom: 100px;
+}
+
+.second-card{
+    background-color: rgb(121, 32, 32);
+    z-index: 1;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 480px;
+    margin-left: 30px;
+    display: none;
+
+}
+
+.second-card h1{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(147, 209, 55);
+}
+
+input{
+    margin-left: 40px;
+    width: 280px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+label{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: wheat;
+    
+}
+
+textarea{
+    margin-left: 40px;
+    width: 290px;
+    height: 220px;
+    margin-top: 7px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+
+button{
+    margin-left: 40px;
+    width: 290px;
+    margin-top: 5px;
+    padding: 12px 0px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.first-card{
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    column-gap: 10px;
+    row-gap: 15px;
+    z-index: 1;
+    
+}
+
+.first{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+h2{
+    padding-left: 10px;
+    color: maroon;
+}
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.first-card a{
+    color: rgb(22, 84, 22);
+    padding-left: 29px;
+    font-size: 20px;
+}
+
+.first-card a:hover{
+    color: blue;
+}
+
+.first-card div:hover{
+    background-color: rgb(243, 204, 105);
+    transition: 1s;
+
+}
+
+
+.second{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.third{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.fourth{
+    background-color: wheat;
+    height: 250px;
+    /* margin-top: 60px; */
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.fifth{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.sixth{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.seventh{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+
+}
+
+.eight{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.ninth{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.ten{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+   /* Footer */
+
+   .footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 320px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:540px) {
+      /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 85px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 540px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 60px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 540px;
+    height: 1290px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 20px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 24px;
+    width: 55px;
+    display: block;
+}
+
+.cancel{
+    width: 40px;
+    display: none;
+    padding-top: 16px;
+}
+
+/* Container */
+
+.heading{
+    margin-top: 130px;
+    margin-bottom: -30px;
+}
+
+
+.heading h1{
+    color: white;
+    padding-left: 60px;
+    margin-right: 30px;
+    margin-left: -30px;
+}
+
+.heading p{
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: maroon;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    z-index: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.heading hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.statute-content{
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding-bottom: 100px;
+}
+
+.second-card{
+    background-color: rgb(121, 32, 32);
+    z-index: 1;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 480px;
+    margin-left: 30px;
+    display: none;
+
+}
+
+.second-card h1{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(147, 209, 55);
+}
+
+input{
+    margin-left: 40px;
+    width: 280px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+label{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: wheat;
+    
+}
+
+textarea{
+    margin-left: 40px;
+    width: 290px;
+    height: 220px;
+    margin-top: 7px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+
+button{
+    margin-left: 40px;
+    width: 290px;
+    margin-top: 5px;
+    padding: 12px 0px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.first-card{
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    column-gap: 10px;
+    row-gap: 15px;
+    z-index: 1;
+    
+}
+
+.first{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+h2{
+    padding-left: 10px;
+    color: maroon;
+}
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.first-card a{
+    color: rgb(22, 84, 22);
+    padding-left: 29px;
+    font-size: 20px;
+}
+
+.first-card a:hover{
+    color: blue;
+}
+
+.first-card div:hover{
+    background-color: rgb(243, 204, 105);
+    transition: 1s;
+
+}
+
+
+.second{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.third{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.fourth{
+    background-color: wheat;
+    height: 250px;
+    /* margin-top: 60px; */
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.fifth{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.sixth{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.seventh{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+
+}
+
+.eight{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.ninth{
+    background-color: wheat;
+    height: 250px;
+    margin-top: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+
+.ten{
+    background-color: wheat;
+    height: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color:rgb(252, 250, 250);
+    height:40px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: -20px;
+    border-radius: 0px;
+    color: black;
+    position: relative;
+}
+
+.footer a{
+    display: none;
+}
+
+.footer a:hover{
+    color: maroon;
+    padding-right: 20px;
+}
+
+.footer .uno{
+    display: none;
+}
+
+.footer .duos{
+    display: none;
+
+}
+
+.footer .trio{
+    display: none;
+
+}
+
+.copyright{
+    padding-left: 220px;
+    padding-bottom: -200px;
+    color: black !important;
+    margin-top: -30px;
+    font-style: italic;
+}
+
+.footer hr{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:430px) {
+    /* Navigation Bar */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar{
+    margin-top: 0px;
+    height: 75px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    width: 430px;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 55px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    float:right;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    font-size: 18px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    left: -80px;
+    top: 70px;
+    background-color: white;
+    width: 430px;
+    height: 890px;
+    line-height: 40px;
+}
+
+hr{
+    display: block;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+.menu a:hover{
+    color: white !important;
+}
+
+.background img{
+    position: absolute;
+    width: 850px;
+    border-radius: 480px;
+    top: 100px;
+    left: 210px;
+    opacity: 0.2;
+    z-index: -1;
+    display: none;
+}
+
+ul .home{
+    color: goldenrod !important;
+    font-size: 22px;
+}
+
+.toggle{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.hamburger{
+    padding-top: 20px;
+    width: 55px;
+    display: block;
+}
+
+.cancel{
+    width: 45px;
+    display: none;
+    padding-top: 10px;
 }
 
 
@@ -446,7 +2750,7 @@ body{
 
 .nav-bar{
     margin-top: 0px;
-    height: 100px;
+    height: 75px;
     display: flex;
     background-color: white;
     position: fixed;
@@ -460,7 +2764,7 @@ body{
 }
 
 .logo img{
-    width: 70px;
+    width: 55px;
     border-radius: 60px;
     margin-right: 5px;
 }
@@ -477,10 +2781,10 @@ body{
     display: none;
     position: fixed;
     left: -80px;
-    top: 80px;
+    top: 70px;
     background-color: white;
     width: 414px;
-    height: 390px;
+    height: 790px;
     line-height: 40px;
 }
 
@@ -522,16 +2826,17 @@ ul .home{
 }
 
 .hamburger{
-    padding-top: 18px;
-    width: 70px;
+    padding-top: 20px;
+    width: 55px;
     display: block;
 }
 
 .cancel{
-    width: 50px;
+    width: 45px;
     display: none;
-    padding-top: 20px;
+    padding-top: 10px;
 }
+
 
 
 /* Container */
@@ -784,22 +3089,18 @@ p{
 /* Footer */
 
 .footer{
-    background-color:white;
-    height: 150px;
+    background-color:rgb(252, 250, 250);
+    height:40px;
     overflow: hidden;
     padding-bottom: 0px;
-    margin-top: -40px;
+    margin-top: -20px;
     border-radius: 0px;
     color: black;
     position: relative;
-    display: none;
 }
 
 .footer a{
-    color: black;
-    text-decoration: none;
-    margin-bottom: 0px;
-    margin-bottom: 0px;
+    display: none;
 }
 
 .footer a:hover{
@@ -808,38 +3109,24 @@ p{
 }
 
 .footer .uno{
-    display: inline-block;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: -20px;
-    padding-left: 50px;
-    padding-top: 20px;
+    display: none;
 }
 
 .footer .duos{
-    padding-left: 50px;
-    display: block;
-    margin-left: 0px;
-    margin-top: 0px;
-    padding-right: 30px;
+    display: none;
+
 }
 
 .footer .trio{
-    display: block;
-    margin-left: 0px;
-    margin-top: 0px; 
-    display: block;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    padding-bottom: 40px;
+    display: none;
 }
 
 .copyright{
     padding-left: 140px;
     padding-bottom: -200px;
-    color: goldenrod !important;
+    color: black !important;
     margin-top: -30px;
+    font-style: italic;
 }
 
 .footer hr{
@@ -855,11 +3142,20 @@ p{
 
 
 
-/* pixel 7 */
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:412px) {
 
-    /* Navigation Bar */
+   /* Navigation Bar */
 
 
 *{
@@ -877,7 +3173,7 @@ body{
 
 .nav-bar{
     margin-top: 0px;
-    height: 100px;
+    height: 75px;
     display: flex;
     background-color: white;
     position: fixed;
@@ -891,7 +3187,7 @@ body{
 }
 
 .logo img{
-    width: 70px;
+    width: 55px;
     border-radius: 60px;
     margin-right: 5px;
 }
@@ -908,10 +3204,10 @@ body{
     display: none;
     position: fixed;
     left: -80px;
-    top: 80px;
+    top: 70px;
     background-color: white;
     width: 414px;
-    height: 390px;
+    height: 915px;
     line-height: 40px;
 }
 
@@ -953,17 +3249,16 @@ ul .home{
 }
 
 .hamburger{
-    padding-top: 18px;
-    width: 70px;
+    padding-top: 20px;
+    width: 55px;
     display: block;
 }
 
 .cancel{
-    width: 50px;
+    width: 45px;
     display: none;
-    padding-top: 20px;
+    padding-top: 10px;
 }
-
 
 /* Container */
 
@@ -1215,22 +3510,18 @@ p{
 /* Footer */
 
 .footer{
-    background-color:white;
-    height: 150px;
+    background-color:rgb(252, 250, 250);
+    height:40px;
     overflow: hidden;
     padding-bottom: 0px;
-    margin-top: -40px;
+    margin-top: -20px;
     border-radius: 0px;
     color: black;
     position: relative;
-    display: none;
 }
 
 .footer a{
-    color: black;
-    text-decoration: none;
-    margin-bottom: 0px;
-    margin-bottom: 0px;
+    display: none;
 }
 
 .footer a:hover{
@@ -1239,38 +3530,23 @@ p{
 }
 
 .footer .uno{
-    display: inline-block;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: -20px;
-    padding-left: 50px;
-    padding-top: 20px;
+    display: none;
 }
 
 .footer .duos{
-    padding-left: 50px;
-    display: block;
-    margin-left: 0px;
-    margin-top: 0px;
-    padding-right: 30px;
+    display: none;
 }
 
 .footer .trio{
-    display: block;
-    margin-left: 0px;
-    margin-top: 0px; 
-    display: block;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    padding-bottom: 40px;
+    display: none;
 }
 
 .copyright{
     padding-left: 140px;
     padding-bottom: -200px;
-    color: goldenrod !important;
+    color: black !important;
     margin-top: -30px;
+    font-style: italic;
 }
 
 .footer hr{
@@ -1287,11 +3563,11 @@ p{
 
 
 
-/* iphone 12 pro */
+
 
 @media screen and (max-width:390px) {
 
-    /* Navigation Bar */
+ /* Navigation Bar */
 
 
 *{
@@ -1309,7 +3585,7 @@ body{
 
 .nav-bar{
     margin-top: 0px;
-    height: 100px;
+    height: 70px;
     display: flex;
     background-color: white;
     position: fixed;
@@ -1323,7 +3599,7 @@ body{
 }
 
 .logo img{
-    width: 70px;
+    width: 55px;
     border-radius: 60px;
     margin-right: 5px;
 }
@@ -1340,10 +3616,10 @@ body{
     display: none;
     position: fixed;
     left: -80px;
-    top: 80px;
+    top: 70px;
     background-color: white;
     width: 414px;
-    height: 390px;
+    height: 790px;
     line-height: 40px;
 }
 
@@ -1380,21 +3656,22 @@ ul .home{
 
 .toggle{
     position: absolute;
-    right: 33px;
+    right: 45px;
     display: block;
 }
 
 .hamburger{
-    padding-top: 18px;
-    width: 70px;
+    padding-top: 20px;
+    width: 50px;
     display: block;
 }
 
 .cancel{
-    width: 50px;
+    width: 40px;
     display: none;
-    padding-top: 20px;
+    padding-top: 15px;
 }
+
 
 
 /* Container */
@@ -1647,67 +3924,48 @@ p{
 /* Footer */
 
 .footer{
-    background-color:white;
-    height: 150px;
+    background-color:rgb(252, 250, 250);
+    height:40px;
     overflow: hidden;
     padding-bottom: 0px;
-    margin-top: -40px;
+    margin-top: -20px;
     border-radius: 0px;
     color: black;
     position: relative;
-    display: none;
 }
 
 .footer a{
-    color: black;
-    text-decoration: none;
-    margin-bottom: 0px;
-    margin-bottom: 0px;
+    display: none;
 }
 
 .footer a:hover{
-    color: maroon;
-    padding-right: 20px;
+    display: none;
 }
 
 .footer .uno{
-    display: inline-block;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: -20px;
-    padding-left: 50px;
-    padding-top: 20px;
+    display: none;
 }
 
 .footer .duos{
-    padding-left: 50px;
-    display: block;
-    margin-left: 0px;
-    margin-top: 0px;
-    padding-right: 30px;
+    display: none;
 }
 
 .footer .trio{
-    display: block;
-    margin-left: 0px;
-    margin-top: 0px; 
-    display: block;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    padding-bottom: 40px;
+    display: none;
 }
 
 .copyright{
-    padding-left: 140px;
+    padding-left: 130px;
     padding-bottom: -200px;
-    color: goldenrod !important;
+    color: black !important;
     margin-top: -30px;
+    font-style: italic;
 }
 
 .footer hr{
     display: none;
 }
+
 }
 
 
@@ -1718,11 +3976,15 @@ p{
 
 
 
-/* Samsung galaxy s8+ */
+
+
+
+
+
 
 
 @media screen and (max-width: 360px) {
-    /* Navigation Bar */
+   /* Navigation Bar */
 
 
 *{
@@ -1740,7 +4002,7 @@ body{
 
 .nav-bar{
     margin-top: 0px;
-    height: 100px;
+    height: 65px;
     display: flex;
     background-color: white;
     position: fixed;
@@ -1750,11 +4012,11 @@ body{
 
 .logo{
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 7px;
 }
 
 .logo img{
-    width: 70px;
+    width: 50px;
     border-radius: 60px;
     margin-right: 5px;
 }
@@ -1771,10 +4033,10 @@ body{
     display: none;
     position: fixed;
     left: -80px;
-    top: 80px;
+    top: 60px;
     background-color: white;
     width: 414px;
-    height: 390px;
+    height: 790px;
     line-height: 40px;
 }
 
@@ -1811,20 +4073,20 @@ ul .home{
 
 .toggle{
     position: absolute;
-    right: 60px;
+    right: 75px;
     display: block;
 }
 
 .hamburger{
-    padding-top: 18px;
-    width: 70px;
+    padding-top: 15px;
+    width: 50px;
     display: block;
 }
 
 .cancel{
-    width: 50px;
+    width: 35px;
     display: none;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 
@@ -2083,62 +4345,42 @@ p{
 /* Footer */
 
 .footer{
-    background-color:white;
-    height: 150px;
+    background-color:rgb(252, 250, 250);
+    height:40px;
     overflow: hidden;
     padding-bottom: 0px;
-    margin-top: -40px;
+    margin-top: -20px;
     border-radius: 0px;
     color: black;
     position: relative;
-    display: none;
 }
 
 .footer a{
-    color: black;
-    text-decoration: none;
-    margin-bottom: 0px;
-    margin-bottom: 0px;
+    display: none;
 }
 
 .footer a:hover{
-    color: maroon;
-    padding-right: 20px;
+    display: none;
 }
 
 .footer .uno{
-    display: inline-block;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: -20px;
-    padding-left: 50px;
-    padding-top: 20px;
+    display: none;
 }
 
 .footer .duos{
-    padding-left: 50px;
-    display: block;
-    margin-left: 0px;
-    margin-top: 0px;
-    padding-right: 30px;
+    display: none;
 }
 
 .footer .trio{
-    display: block;
-    margin-left: 0px;
-    margin-top: 0px; 
-    display: block;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    padding-bottom: 40px;
+    display: none;
 }
 
 .copyright{
-    padding-left: 140px;
+    padding-left: 120px;
     padding-bottom: -200px;
-    color: goldenrod !important;
+    color: black !important;
     margin-top: -30px;
+    font-style: italic;
 }
 
 .footer hr{
@@ -2152,7 +4394,13 @@ p{
 
 
 
-/* Galaxy z fold 5 */
+
+
+
+
+
+
+
 
 @media screen and (max-width:344px) {
     /* Navigation Bar */
@@ -2173,7 +4421,7 @@ body{
 
 .nav-bar{
     margin-top: 0px;
-    height: 100px;
+    height: 60px;
     display: flex;
     background-color: white;
     position: fixed;
@@ -2183,11 +4431,11 @@ body{
 
 .logo{
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 7px;
 }
 
 .logo img{
-    width: 70px;
+    width: 45px;
     border-radius: 60px;
     margin-right: 5px;
 }
@@ -2204,10 +4452,10 @@ body{
     display: none;
     position: fixed;
     left: -80px;
-    top: 80px;
+    top: 60px;
     background-color: white;
     width: 414px;
-    height: 390px;
+    height: 790px;
     line-height: 40px;
 }
 
@@ -2244,21 +4492,22 @@ ul .home{
 
 .toggle{
     position: absolute;
-    right: 70px;
+    right: 95px;
     display: block;
 }
 
 .hamburger{
     padding-top: 18px;
-    width: 70px;
+    width: 40px;
     display: block;
 }
 
 .cancel{
-    width: 50px;
+    width: 30px;
     display: none;
-    padding-top: 20px;
+    padding-top: 15px;
 }
+
 
 
 /* Container */
